@@ -3,7 +3,7 @@ const fs = require('fs');
 const cors = require('cors');
 const app = express();
 
-app.use(cors({ origin: 'https://votrepseudo.github.io' }));
+app.use(cors({ origin: 'https://AZMAN001.github.io' }));
 
 // Lecture/écriture dans un fichier JSON
 const DB_FILE = 'db.json';
