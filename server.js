@@ -10,8 +10,7 @@ const DB_FILE = 'db.json';
 
 // Route pour récupérer les utilisateurs
 app.get('/users', (req, res) => {
-    const data = JSON.parse(fs.readFileSync(DB_FILE));
-    res.json(data.users);
+    res.json([{ name: "Test" }]); // Exemple minimaliste
 });
 
 // Route pour ajouter un utilisateur (POST)
